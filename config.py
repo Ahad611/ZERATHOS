@@ -12,7 +12,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID","22657083"))
 API_HASH = getenv("API_HASH","d6186691704bd901bdab275ceaab88f3")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN","7981435750:AAFAjrDiWDfEDKwJ3WIsOhpbZThiV1JY7h0")
+BOT_TOKEN = getenv("BOT_TOKEN","7981435750:AAEeeoaooxgq2lh8e_5TPkXctyQirH-d29c")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","Og_Zerathos")
 # --------------------------------------------------------
@@ -20,13 +20,13 @@ BOT_USERNAME = getenv("BOT_USERNAME" , "CardioMuzicBot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , "-  `𝐂α᱂ᴅɪᴏ ꭗ‌ 𝐌ᴜѕɪᴄ")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "ichooseher")
+ASSUSERNAME = getenv("ASSUSERNAME" , "sexyKakrox")
 # ---------------------------------------------------------
 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://anshganava4444:anshganava4444@cluster0.4eott.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://cardiomusic4:cardiomusic4@cluster0.4n3ee1d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -53,7 +53,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY","HRKU-AApD2ZG7a151gNkH6-WUTcHUYjUnxQRhG
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Ahad6626/MUSIC-MANAGEMENT",
+    "https://github.com/Ahad6111/ZERATHOS",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -82,7 +82,7 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/JarvisXsupport")
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "9999999"))
@@ -91,8 +91,8 @@ SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "99999
 # --------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "1c21247d714244ddbb09925dac565aed")
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "709e1a2969664491b58200860623ef19")
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "46f72f0c2b5b4541bfd0f02ec1d41378")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "9fd35265f82444109bf725b44f9358b9")
 # ----------------------------------------------------------------------------------
 
 
@@ -114,13 +114,13 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
-STRING6 = getenv("STRING_SESSION6", None)
-STRING7 = getenv("STRING_SESSION7", None)
+STRING1 = getenv("STRING1", None)
+STRING2 = getenv("STRING2", None)
+STRING3 = getenv("STRING3", None)
+STRING4 = getenv("STRING4", None)
+STRING5 = getenv("STRING5", None)
+STRING6 = getenv("STRING6", None)
+STRING7 = getenv("STRING7", None)
 BANNED_USERS = filters.user()
 adminlist = {}
 lyrical = {}
@@ -141,21 +141,31 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/b61227af05544deb76a34.jpg"
+    "START_IMG_URL", "SHUKLAMUSIC/assets/st3.png"
 )
-PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/b61227af05544deb76a34.jpg"
+PING_IMG_URL = [
+    "SHUKLAMUSIC/assets/ping.png"
+    "SHUKLAMUSIC/assets/beautiful girl.jpeg",
+    "SHUKLAMUSIC/assets/Teju Ashwini.jpeg",
+    "SHUKLAMUSIC/assets/download (4).jpeg",
+    "SHUKLAMUSIC/assets/download (3).jpeg",
+    "SHUKLAMUSIC/assets/download (2).jpeg",
+    "SHUKLAMUSIC/assets/Teju Ashwini.jpeg",
+    "SHUKLAMUSIC/assets/download (5).jpeg"
+]
+PLAYLIST_IMG_URL = "https://files.catbox.moe/ujpc4j.jpg"
+STATS_IMG_URL = getenv(
+    "STATS_IMG_URL", "SHUKLAMUSIC/assets/stats.png"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/vfhpe7.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/ujpc4j.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/ujpc4j.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/ujpc4j.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/ujpc4j.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/vfhpe7.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/vfhpe7.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/vfhpe7.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/vfhpe7.jpg"
+
+TELEGRAM_AUDIO_URL = "SHUKLAMUSIC/assets/download (5).jpeg"
+TELEGRAM_VIDEO_URL = "SHUKLAMUSIC/assets/download (5).jpeg"
+STREAM_IMG_URL = "SHUKLAMUSIC/assets/download (5).jpeg"
+SOUNCLOUD_IMG_URL = "SHUKLAMUSIC/assets/download (5).jpeg"
+YOUTUBE_IMG_URL = "SHUKLAMUSIC/assets/download (5).jpeg"
+SPOTIFY_ARTIST_IMG_URL = "SHUKLAMUSIC/assets/download (5).jpeg"
+SPOTIFY_ALBUM_IMG_URL = "SHUKLAMUSIC/assets/download (5).jpeg"
+SPOTIFY_PLAYLIST_IMG_URL = "SHUKLAMUSIC/assets/download (5).jpeg"
 
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
