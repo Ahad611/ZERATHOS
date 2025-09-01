@@ -14,7 +14,7 @@ dbb()
 heroku()
 
 # Clients
-app = SHUKLA
+app = SHUKLA()
 userbot = Userbot()
 api = SafoneAPI()
 
