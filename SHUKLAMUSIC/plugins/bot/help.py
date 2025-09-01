@@ -13,17 +13,29 @@ from SHUKLAMUSIC.utils.stuffs.buttons import BUTTONS
 from SHUKLAMUSIC.utils.stuffs.helper import Helper
 
 SHASHANK_VD = [
-   "https://files.catbox.moe/40t36l.jpg",
-   "https://files.catbox.moe/y4q8we.jpg",
-   "https://files.catbox.moe/3hvb0e.jpg",
-   "https://files.catbox.moe/ik2y3y.jpg",
-   "https://files.catbox.moe/eand9z.jpg",
-   "https://files.catbox.moe/7a6tgh.jpg",
-   "https://files.catbox.moe/tx4utv.jpg",
-   "https://files.catbox.moe/ymaina.jpg",
-   "https://files.catbox.moe/u5ksfg.jpg",
-   "https://files.catbox.moe/b8ovsd.jpg",
-   "https://files.catbox.moe/zozepo.jpg"
+    "SHUKLAMUSIC/assets/st1.png",
+    "SHUKLAMUSIC/assets/st2.png",
+    "SHUKLAMUSIC/assets/st3.png",
+    "SHUKLAMUSIC/assets/st4.png",
+    "SHUKLAMUSIC/assets/st5.png",
+    "SHUKLAMUSIC/assets/st6.png",
+    "SHUKLAMUSIC/assets/st7.png",
+    "SHUKLAMUSIC/assets/st8.png",
+    "SHUKLAMUSIC/assets/st10.png",
+    "SHUKLAMUSIC/assets/st11.png",
+    "SHUKLAMUSIC/assets/st12.png",
+    "SHUKLAMUSIC/assets/st14.png",
+    "SHUKLAMUSIC/assets/stats.png",
+    "SHUKLAMUSIC/assets/ping.png",
+    "SHUKLAMUSIC/assets/st15.png",
+    "SHUKLAMUSIC/assets/st17.png",
+    "SHUKLAMUSIC/assets/beautiful girl.jpeg",
+    "SHUKLAMUSIC/assets/Teju Ashwini.jpeg",
+    "SHUKLAMUSIC/assets/download (4).jpeg",
+    "SHUKLAMUSIC/assets/download (3).jpeg"
+    "SHUKLAMUSIC/assets/download (2).jpeg",
+    "SHUKLAMUSIC/assets/Teju Ashwini.jpeg",
+    "SHUKLAMUSIC/assets/download (5).jpeg"
 ]
 
 
